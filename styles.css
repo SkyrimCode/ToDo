@@ -1,0 +1,30 @@
+body{
+    background: #3aafa9;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(23, 37, 42, 0.5);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #17252a;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  .filtered{
+      display: none !important;
+  }
+label,h1{
+    color:black;
+}
+.form-control::-webkit-input-placeholder {
+    color: white;
+    opacity:0.5;
+  }
+  
